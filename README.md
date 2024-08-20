@@ -58,5 +58,6 @@ If you have any questions, feedback, or just want to connect, feel free to reach
 - **GitHub**: [HACKEDTECH]
 
 ---
+Ref: [https://github.com/ossu/computer-science]
 
 Thank you for visiting my Python learning journey. Let's code and grow together!
