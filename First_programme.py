@@ -7,3 +7,19 @@ types = [type(x) for x in (num1, num2, 42)]
 
 print(types)  # This will print the types of num1, num2, and 42
 print(float(num1 / num2))  # Perform and print the division as a float
+
+#Program 2
+# I prefilled this variable for you, you don't need to touch it.
+
+whetting_your_appetite = "Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms."
+
+# Enter your code below:
+n_char = len(whetting_your_appetite)
+
+#A len() function can measure the length of lists,strings ... nearly everything
+
+print(n_char)
+
+#excluding spaces to get actual letter count
+n_char_2 = len(whetting_your_appetite.replace(" ",""))
+print(n_char_2, ", Number of spaces in particular: ", (n_char - n_char_2))
