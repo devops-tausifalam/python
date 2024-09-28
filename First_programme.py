@@ -1,4 +1,4 @@
-#Program 1
+#Program 1: It is about simple division of float numbers and returning their type using tupl
 num1 = 8958937768937
 num2 = 2851718461558
 
@@ -8,7 +8,7 @@ types = [type(x) for x in (num1, num2, 42)]
 print(types)  # This will print the types of num1, num2, and 42
 print(float(num1 / num2))  # Perform and print the division as a float
 
-#Program 2
+#Program 2: this program returns number of char in the first variable with/without spaces
 # I prefilled this variable for you, you don't need to touch it.
 
 whetting_your_appetite = "Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms."
