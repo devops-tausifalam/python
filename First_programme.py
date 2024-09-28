@@ -30,3 +30,26 @@ first_sqNum = [0,1,2,3,4,5,6,7,8,9]
 for loop in first_sqNum:
     print("Squared Num: ", loop**2)
     #later-on I would like to do something like: print("square of 0 is:") till 9 like this
+
+#Exercise Programes
+
+#for sum
+x,y = float(input("Enter Number 1: ")), float(input("Enter Number 2: "))
+x += y
+print(x)
+
+#area of square
+length_square = float(input("Enter length of sides of a square: "))
+area = length_square*length_square
+print(area)
+
+#printing average of two floating numbers
+f1,f2 = float(input("Enter Number 1: ")), float(input("Enter Number 2: "))
+avg = ((f1+f2)/2)
+print(avg)
+
+#greater or less boolean program
+b1,b2 = int(input("Enter B1: ")), int(input("Enter B2: "))
+print(bool(b1>b2))
+
+#End Of this Program
