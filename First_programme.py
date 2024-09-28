@@ -23,3 +23,10 @@ print(n_char)
 #excluding spaces to get actual letter count
 n_char_2 = len(whetting_your_appetite.replace(" ",""))
 print(n_char_2, ", Number of spaces in particular: ", (n_char - n_char_2))
+
+#Program 3: using for loop and showing squares of first 10 whole numbers
+first_sqNum = [0,1,2,3,4,5,6,7,8,9]
+
+for loop in first_sqNum:
+    print("Squared Num: ", loop**2)
+    #later-on I would like to do something like: print("square of 0 is:") till 9 like this
