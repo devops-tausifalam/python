@@ -20,12 +20,12 @@ else:
 #Program4: find the greatest of 3 numbers entered by the user.
 greatest = float(input("Num1: ")) ,float(input("Num1: ")),float(input("Num1: "))
 if (greatest[0] == greatest[1] and greatest[2] == greatest[1] and greatest[2] == greatest[0]):
-    print("Looks like you're doing comedy!")
+    print("You're comedy me!")
 else: 
     print(max(greatest), " is greatest among ", greatest)
 
 #Program5: if a number is a multiple of 7 or not.
-multiple = float(input("Check divisibility of seven \n ENTER number: "))
+multiple = float(input("Check multiple of seven \n ENTER number: "))
 if (multiple % 7 == 0):
     print(multiple, " is multiple of 7.")
 else:
