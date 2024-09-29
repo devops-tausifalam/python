@@ -17,8 +17,8 @@ Here's how I've organized the repository:
 ```
 python/
 │
-├── Beginner/
-|    |-- Hello_world.py
+├── Learning_cycle/
+|    |-- [py]
 │
 └── README.md
 ```
